@@ -4,4 +4,4 @@ COPY target/springboot_docker.jar /usr/app/
 
 WORKDIR /usr/app
 
-ENTRYPOINT ["java",".jar","springboot_docker.jar"]
+ENTRYPOINT ["java","-jar","springboot_docker.jar"]
